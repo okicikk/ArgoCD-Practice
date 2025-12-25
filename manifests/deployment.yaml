@@ -5,7 +5,11 @@ metadata:
   labels:
     app: my-nginx
 spec:
+<<<<<<< HEAD
   replicas: 3
+=======
+  replicas: 6
+>>>>>>> parent of 4444031 (Reduce replicas from 6 to 2 in deployment)
   selector:
     matchLabels:
       app: my-nginx
