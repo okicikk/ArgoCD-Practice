@@ -1,9 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: oki-demo-app
+  name: my-nginx-app
   labels:
-    app: oki-demo
+    app: my-nginx
 spec:
   replicas: 2
   selector:
@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: oki-demo
-        image: okay03/oki-demo:14
+        image: okay03/oki-demo:16
         imagePullPolicy: Always
         ports:
         - containerPort: 80
