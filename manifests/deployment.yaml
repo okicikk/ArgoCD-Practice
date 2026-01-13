@@ -16,8 +16,14 @@ spec:
     spec:
       containers:
       - name: oki-demo
-        image: okay03/oki-demo:21
+        image: okay03/oki-demo:27
         imagePullPolicy: Always
         ports:
         - containerPort: 80
+
+
+
+
+
+
 
